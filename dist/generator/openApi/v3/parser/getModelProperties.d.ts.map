@@ -1,0 +1,1 @@
+{"version":3,"file":"getModelProperties.d.ts","sourceRoot":"","sources":["../../../../../src/generator/openApi/v3/parser/getModelProperties.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,kCAAkC,CAAC;AACzD,OAAO,EAAE,OAAO,EAAE,MAAM,uBAAuB,CAAC;AAChD,OAAO,EAAE,aAAa,EAAE,MAAM,6BAA6B,CAAC;AAK5D,wBAAgB,kBAAkB,CAAC,OAAO,EAAE,OAAO,EAAE,UAAU,EAAE,aAAa,GAAG,KAAK,EAAE,CA+EvF"}
