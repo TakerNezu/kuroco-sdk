@@ -86,9 +86,12 @@ export class {{{name}}} {
                 {{#if responseHeader~}}
                     responseHeader: '{{{responseHeader}}}',
                 {{/if}}
-                });
-                {{#if errors}}
-                    if (!result.ok) {
+            });
+            
+            let result = await request();
+            
+            {{#if errors}}
+                if (!result.ok) {
                     switch (result.status) {
                     {{#each errors}}
                         case {{{code}}}: throw new ApiError(result, `{{{description}}}`);
@@ -96,8 +99,6 @@ export class {{{name}}} {
                     }
                 }
             {{/if}}
-
-            let result = await request();
 
             if (shouldHookToken && !result.ok && result.status === 401) {
                 result = await import('../core/Auth').then(({ Auth }) => Auth.retryRequest(request, result));

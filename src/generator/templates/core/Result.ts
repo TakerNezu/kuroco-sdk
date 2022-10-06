@@ -8,5 +8,5 @@ export interface Result<T = any> {
     ok: boolean;
     status: number;
     statusText: string;
-    body: T;
+    body: T | any;
 }
