@@ -1,9 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var OPERATION_PATTERN;
-(function (OPERATION_PATTERN) {
-    OPERATION_PATTERN["LOGIN"] = "LOGIN";
-    OPERATION_PATTERN["LOGOUT"] = "LOGOUT";
-    OPERATION_PATTERN["TOKEN"] = "TOKEN";
-    OPERATION_PATTERN["FIREBASE_TOKEN"] = "FIREBASE_TOKEN";
-})(OPERATION_PATTERN = exports.OPERATION_PATTERN || (exports.OPERATION_PATTERN = {}));

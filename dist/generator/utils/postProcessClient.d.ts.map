@@ -1,1 +1,0 @@
-{"version":3,"file":"postProcessClient.d.ts","sourceRoot":"","sources":["../../../src/generator/utils/postProcessClient.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,6BAA6B,CAAC;AAGrD,OAAO,EAAE,YAAY,EAAE,MAAM,OAAO,CAAC;AAGrC;;;;;GAKG;AACH,wBAAgB,iBAAiB,CAAC,MAAM,EAAE,IAAI,CAAC,MAAM,EAAE,KAAK,CAAC,EAAE,YAAY,EAAE,YAAY,EAAE,qBAAqB,UAAQ,GAAG,MAAM,CAiBhI"}
