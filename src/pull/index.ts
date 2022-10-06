@@ -30,7 +30,9 @@ export async function writeRcmsFilesWithFetch(options: Options) {
     if (!res.ok && res.status === 401) {
         throw Error('the server responsed as unautorized, please check your SDK key.');
     }
-    const openapi = (await res.json()).openapi_data;
+
+    const json = (await res.json()) as { openapi_data: string };
+    const openapi = json.openapi_data;
     // hooks validation to openapi.json, this throw an Error whrn occurs invalidations.
     new SwaggerParser().bundle(openapi);
 
