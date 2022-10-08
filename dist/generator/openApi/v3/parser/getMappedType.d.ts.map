@@ -1,0 +1,1 @@
+{"version":3,"file":"getMappedType.d.ts","sourceRoot":"","sources":["../../../../../src/generator/openApi/v3/parser/getMappedType.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAiB,MAAM,aAAa,CAAC;AAEzD;;GAEG;AACH,wBAAgB,aAAa,CAAC,IAAI,EAAE,MAAM,GAAG,WAAW,GAAG,MAAM,CAMhE;AAED,wBAAgB,aAAa,CAAC,IAAI,EAAE,MAAM,GAAG,OAAO,CAEnD"}
